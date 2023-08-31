@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#EB5757",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="text-center mx-auto space-y-5 my-6">
+      <h1 class="font-bold">AI Universe Hub</h1>
+      <button class="btn bg-clifford text-white">Sort By Date</button>
+    </div>
+    <div id="news-container" class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+  
+      <!-- <div class="card bg-base-100 shadow-xl border">
+          <figure class="px-5 pt-5">
+            <img src="https://img.olhardigital.com.br/wp-content/uploads/2023/01/chatgpt_assistente.jpg" alt="Shoes" class="rounded-xl" />
+          </figure>
+        
+        <div class="items-start text-start p-5 space-y-3">
+          <h2 class="card-title">Features</h2>
+          <ol class="list-decimal ml-3 text-gray-400">
+            <li>Natural language processing</li>
+            <li>Contextual understanding</li>
+            <li>Text generation</li>
+          </ol>
+          <hr>
+          <div class="flex justify-between">
+            <div>
+              <h1 class=" text-lg font-bold">Microsoft Bing</h1>
+              <h1 class=" text-xs">11/01/2022</h1>
+            </div>
+            <div>
+              <button class=" text-5xl text-red-700 bg-red-200 rounded-full pb-2 px-2 hover:bg-red-400 ">→</button>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      
+      
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
